@@ -1,22 +1,59 @@
-/* .header{
+.Header{
     font-size: 16px;
     line-height: 24px;
     color:#550055;
      font-weight: 600;
-}
-
-.largeSpacing {
-  padding-right: 350px; 
+     background-color: #ffffff !important;
+     border-bottom:10px solid #F5F5F5; ;
+} 
+/* .largeSpacing {
+  padding-right: 50px; 
 }
 
 .smallSpacing {
   padding-right: 10px; 
+}  */
+.teamLogo{
+  width: 32px;
+  height: 32px;
+     object-fit: contain ;
 }
 .team{
     line-height: 24px;
     color:#1A0B26;
     font-weight: 400;
+    background-color: #ffffff;
 }
 .greenText{
    color: #00AD12;
-} */
+} 
+.spacing{
+  padding-right: 200px !important; 
+}
+
+.teamCell,p,img {
+  background-color: #ffffff;
+  border: none; 
+}
+
+.table_container table {
+  border-collapse: collapse; 
+}
+
+.table_container th,
+.table_container td {
+  border-top: 10px solid #F5F5F5; 
+  padding: 8px; 
+}
+
+.table_container th {
+  background-color: #f2f2f2; 
+}
+
+.table_container td:not(:last-child) {
+  border-bottom: 1px solid #F5F5F5;
+}
+
+.table_container tr:first-child td {
+  border-top: none;
+}

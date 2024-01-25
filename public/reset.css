@@ -25,7 +25,13 @@ figure,
 figcaption,
 blockquote,
 dl,
-dd {
+dd,
+table,
+tbody,
+thead,
+th,
+td,
+tr {
   margin: 0;
 }
 

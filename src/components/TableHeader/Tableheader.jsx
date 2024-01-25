@@ -1,5 +1,5 @@
 import React from "react";
-import s from "./TableHeader.module.css"
+import s from "./TableHeader.module.css";
 
 const TableHeader = ({ headerGroups }) => (
   <thead>
