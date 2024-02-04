@@ -1,8 +1,6 @@
 import React from "react";
 import { useTable } from "react-table";
 import s from "./TableContainer.module.css";
-import TableHeader from "../TableHeader/Tableheader";
-import TableMain from "../TableMain/TableMain";
 
 const TableContainer = ({ data, club}) => {
   const columns = [
@@ -23,6 +21,7 @@ const TableContainer = ({ data, club}) => {
         />
       ),
     },
+    
     {
       Header: "Club",
       accessor: "club",

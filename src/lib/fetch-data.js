@@ -1,5 +1,6 @@
 export const fetchFixtures = async (season, league, standings) => {
-  const url = `https://api-football-v1.p.rapidapi.com/v3/standings?season=${season}&league=${standings}`;
+  // const url = `https://api-football-v1.p.rapidapi.com/v3/standings?season=${season}&league=${standings,league}`;
+  const url = `https://api-football-v1.p.rapidapi.com/v3/standings?season=${season}&league=${league}&standings=${standings}`;
 
   const options = {
     method: "GET",
@@ -30,8 +31,8 @@ export const fetchAllFixtures = async () => {
 
   // Replace these arrays with the actual list of seasons and leagues you want to fetch
   const allSeasons = ["2023"];
-  const allLeagues = ["39", "140", "135", "78", "61"];
-  const allStandings = ["39"];
+  const allLeagues = ["39", "61", "78", "135", "140"];
+  const allStandings = ["39", "61", "78", "135", "140"];
 
   for (const season of allSeasons) {
     for (const league of allLeagues) {
