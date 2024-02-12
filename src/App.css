@@ -18,7 +18,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap:320px
+  gap:340px
 }
 .leagueLogo {
   width: 46px;
@@ -41,4 +41,112 @@
   white-space: nowrap;
    font-size: 14px;
    text-align: center;
+}
+@media (max-width: 750px){
+  .container{
+    max-width: 750px;
+  }
+  .selector{
+    gap:280px ;
+  }
+}
+@media (max-width: 650px){
+  .container{
+    max-width: 600px;
+    padding: 20px;
+  }
+  .selector{
+    gap:220px
+  }
+
+.leagueLogo {
+  width: 43px;
+  height: 43px;
+}
+.logoText{
+  gap: 10px;
+ 
+}
+.leagueText{
+  font-size: 17px;
+}
+.seasonText{
+   font-size: 13px;
+   
+}
+}
+@media (max-width: 580px){
+  .container{
+    max-width: 580px;
+    padding: 10px;
+  }
+  .selector{
+    gap:180px
+  }
+ .leagueLogo {
+  width: 40px;
+  height: 40px;
+}
+.logoText{
+  gap: 10px;
+ 
+}
+.leagueText{
+  font-size: 16px;
+}
+.seasonText{
+   font-size: 12px;
+   
+}
+
+}
+@media (max-width: 480px){
+  .container{
+    max-width: 480px;
+    padding: 10px;
+  }
+  .selector{
+    gap:150px
+  }
+ .leagueLogo {
+  width: 37px;
+  height: 37px;
+}
+.logoText{
+  gap: 10px;
+ 
+}
+.leagueText{
+  font-size: 15px;
+}
+.seasonText{
+   font-size: 13px;
+   
+}
+
+}
+@media (max-width: 360px){
+  .container{
+    max-width: 360px;
+    padding: 10px;
+  }
+  .selector{
+    gap:20px
+  }
+ .leagueLogo {
+  width: 34px;
+  height: 34px;
+}
+.logoText{
+  gap: 10px;
+ 
+}
+.leagueText{
+  font-size: 14px;
+}
+.seasonText{
+   font-size: 12px;
+   
+}
+
 }

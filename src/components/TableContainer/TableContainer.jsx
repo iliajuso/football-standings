@@ -7,7 +7,6 @@ import conferenceLeagueLogo from "../images/EuropaConferenceLeagueQualifier.png"
 import relegation from "../images/Relegation.png";
 import play from "../images/play-off.png";
 const TableContainer = ({ data, club }) => {
-  const topTeams = data.slice(0, 4);
   const columns = [
     {
       Header: "",
