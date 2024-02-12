@@ -50,7 +50,7 @@
     gap:280px ;
   }
 }
-@media (max-width: 650px){
+@media (max-width: 700px){
   .container{
     max-width: 600px;
     padding: 20px;
@@ -75,7 +75,7 @@
    
 }
 }
-@media (max-width: 580px){
+@media (max-width: 600px){
   .container{
     max-width: 580px;
     padding: 10px;

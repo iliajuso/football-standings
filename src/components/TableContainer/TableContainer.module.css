@@ -69,7 +69,7 @@
   width: 32px;
 }
 }
-@media (max-width: 650px){
+@media (max-width: 700px){
   .spacing{
     padding-right: 100px !important;
   }
@@ -87,13 +87,13 @@
 .table_container th,
 .table_container td {
   border-top: 8px solid #F5F5F5; 
-  padding: 8px; 
+  padding: 7px; 
 }
 .qualification{
   width: 30px;
 }
 }
-@media (max-width: 580px){
+@media (max-width: 600px){
   .spacing{
     padding-right: 80px !important;
   }
@@ -111,13 +111,13 @@
 .table_container th,
 .table_container td {
   border-top: 6px solid #F5F5F5; 
-  padding: 8px; 
+  padding: 6px; 
 }
 .qualification{
   width: 28px;
 }
 }
-@media (max-width: 480px){
+@media (max-width: 550px){
   .spacing{
     padding-right: 50px !important;
   }
@@ -136,13 +136,13 @@
 .table_container th,
 .table_container td {
   border-top: 4px solid #F5F5F5; 
-  padding: 6px; 
+  padding: 5px; 
 }
 .qualification{
   width: 22px;
 }
 }
-@media (max-width: 360px){
+@media (max-width: 460px){
   .spacing{
     padding-right: 50px !important;
   }
@@ -161,13 +161,13 @@
 .table_container th,
 .table_container td {
   border-top: 2px solid #F5F5F5; 
-  padding: 3px; 
+  padding: 4px; 
 }
 .qualification{
   width: 20px;
 }
 }
-@media (max-width: 320px){
+@media (max-width: 380px){
   .spacing{
     padding-right: 50px !important;
   }
