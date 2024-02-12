@@ -100,7 +100,7 @@
 }
 
 }
-@media (max-width: 480px){
+@media (max-width: 550px){
   .container{
     max-width: 480px;
     padding: 10px;
@@ -125,7 +125,7 @@
 }
 
 }
-@media (max-width: 360px){
+@media (max-width: 460px){
   .container{
     max-width: 360px;
     padding: 10px;
@@ -150,7 +150,7 @@
 }
 
 }
-@media (max-width: 320px){
+@media (max-width: 380px){
   .container{
     max-width: 320px;
     padding: 10px;
