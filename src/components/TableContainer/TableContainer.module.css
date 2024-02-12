@@ -167,3 +167,28 @@
   width: 20px;
 }
 }
+@media (max-width: 320px){
+  .spacing{
+    padding-right: 50px !important;
+  }
+  .teamLogo{
+  width: 18px ;
+  height: 18px;
+}
+.team{
+    font-size: 8px;
+   
+}
+.Header{
+  font-size: 10px;
+  border-bottom: 2px solid #F5F5F5;
+}
+.table_container th,
+.table_container td {
+  border-top: 2px solid #F5F5F5; 
+  padding: 2px; 
+}
+.qualification{
+  width: 18px;
+}
+}

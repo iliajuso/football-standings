@@ -150,3 +150,28 @@
 }
 
 }
+@media (max-width: 320px){
+  .container{
+    max-width: 320px;
+    padding: 10px;
+  }
+  .selector{
+    gap:20px
+  }
+ .leagueLogo {
+  width: 30px;
+  height: 30px;
+}
+.logoText{
+  gap: 10px;
+ 
+}
+.leagueText{
+  font-size: 13px;
+}
+.seasonText{
+   font-size: 11px;
+   
+}
+
+}
