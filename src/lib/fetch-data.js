@@ -39,7 +39,7 @@ console.log(result)
 export const fetchAllFixtures = async () => {
   const allData = [];
 
-  const allSeasons = ["2023"];
+  const allSeasons = ["2024"];
   const allLeagues = ["39", "61", "78", "135", "140"];
   const allStandings = ["39", "61", "78", "135", "140"];
 
